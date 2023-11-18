@@ -1,0 +1,25 @@
+/* //footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #007bff; /* Adjust the color as needed */
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0056b3; /* Adjust the hover color as needed */
+  }
