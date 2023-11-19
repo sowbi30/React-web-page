@@ -1,4 +1,4 @@
-const dataList = [
+const pages = [
  
   {
     img: 'https://miro.medium.com/v2/resize:fit:1200/1*LyZcwuLWv2FArOumCxobpA.png',
@@ -24,4 +24,4 @@ const dataList = [
     description: "MongoDB is built on li scale-out architecture that has become popular with developers. ",
     id: "Full stack"
   },]
-export {dataList}
+export {pages}
