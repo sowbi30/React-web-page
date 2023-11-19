@@ -1,5 +1,5 @@
 
-import { Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import All from './components/All';
 import Top from './components/TopNavbar';
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className='container-fluid m-0 p-0' >
-      <Router>
+      <BrowserRouter>
         <Top />
         <Routes>
           
@@ -25,7 +25,7 @@ function App() {
             
 
         </Routes>
-      </Router>
+      </BrowserRouter>
 
 
    </div>
